@@ -1641,8 +1641,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('🗣️ Group', url=f'https://t.me/{MT_GROUP}'),
-            InlineKeyboardButton('📢 Channel', url =f'https://t.me/{MT_CHANNEL}')
+            InlineKeyboardButton('🗣️ Group', url=f'https://t.me/{VJcinemacorner_18}'),
+            InlineKeyboardButton('📢 Channel', url =f'https://t.me/{ottmovies_updates}')
         ],[
             InlineKeyboardButton('🤔Help', callback_data="help"),
             InlineKeyboardButton('About😎', callback_data="about"),
@@ -1661,8 +1661,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Support', url='t.me/Mo_Tech_Group'),
-            InlineKeyboardButton('Bot Updates', url=f't.me/{MT_UPDATES}')
+            InlineKeyboardButton('Group', url='https://t.me/VJcinemacorner_18'),
+            InlineKeyboardButton('Bot Updates', url=f't.me/{ottmovies_updates}')
         ],[
             InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
         ],[   
